@@ -16,7 +16,7 @@ Create a **composer.json** file at the root of your project
 	{
 	    "require": {
 	        "php": ">=5.3.0",
-	        "twig/twig": "1.8.2"
+	        "twig/twig": "1.11.*"
 	    }
 	}
 
