@@ -82,6 +82,23 @@ and in your **home/index.twig** do this
 
 	{{ message }}
 
+
+##Upgrading
+
+To upgrade change the Twig version to in the **composer.json** file at the root of your project
+  
+	{
+	    "require": {
+	        "php": ">=5.3.0",
+	        "twig/twig": "1.11.*" 
+	    }
+	}
+
+Update using Composer
+
+	php composer.phar update  
+
+
 ## License ##
 
 Copyright (c) 2012 Amir Khawaja
